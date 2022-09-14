@@ -197,7 +197,6 @@ GET https://api.spaceworm.army/v1/dashboard
   "ETHperWORM":"000.0000000000000000",
   "WORMperETH":"000.00000000000",
   "USDperETH":"0000.000000000000000"
-  }
 }
 ```
 
