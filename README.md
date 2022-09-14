@@ -99,7 +99,7 @@ GET https://api.spaceworm.army/v1/price?n=USDperWORM|WORMperUSD|ETHperWORM|WORMp
 
 ### Volume
 
-_Currently pulls from hourly blocks, to be dynamic to each block / timestamp in future_
+Currently pulls from hourly blocks (to be dynamic to each block / timestamp in future).
 
 _Get both options_
 
