@@ -163,16 +163,7 @@ GET https://api.spaceworm.army/v1/dashboard
 ```json
 {
   "pair": {
-    "token0": {
-      "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-      "symbol": "WETH",
-      "name": "Wrapped Ether",
-      "derivedETH": "1"
-    },
     "token1": {
-      "id": "0xf7ecb2e5ddad17506e62f51a442f725a26053fb2",
-      "symbol": "$WORM",
-      "name": "SpaceWorm",
       "derivedETH": "0.00000000000"
     },
     "reserve0": "000.00000000000",
@@ -186,30 +177,13 @@ GET https://api.spaceworm.army/v1/dashboard
     "volumeToken1": "00000000000.00000000000",
     "txCount": "0000000"
   },
-  "tokenDayDatas": [
-    {
-      "dailyTxns": "000",
-      "dailyVolumeETH": "0000.00000000000",
-      "dailyVolumeUSD": "00000.00000000000",
-      "dailyVolumeToken": "00000.00000000000",
-      "priceUSD": "0.00000000000",
-      "totalLiquidityETH": "0000.00000000000",
-      "totalLiquidityUSD": "0000.00000000000",
-      "totalLiquidityToken": "00000000000.00000000000"
-    }
-  ],
   "pairDayDatas": [
     {
       "id": "0x2c5eae2ac336e27a7c8737cf5fc3263c4f09a2f0-xxxxx",
       "date": 0000000000,
       "dailyVolumeToken0": "0000.00000000000",
       "dailyVolumeToken1": "00000.00000000000",
-      "reserveUSD": "00000.00000000000",
-      "reserve0": "0000.00000000000",
-      "reserve1": "00000.00000000000",
-      "dailyVolumeUSD": "0",
       "dailyTxns": "0000",
-      "pairAddress": "0x2c5eae2ac336e27a7c8737cf5fc3263c4f09a2f0"
     }
   ],
   "_meta": { "block": { "hash": "0x0000000", "timestamp": "0x0000000" } },
