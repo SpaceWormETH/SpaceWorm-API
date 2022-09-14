@@ -127,9 +127,9 @@ GET https://api.spaceworm.army/v1/24hVolume?currency=eth|usd
 
 ### Dashboard (WIP)
 
-Early iteration of part of the API that provides initial data to the dashboard.
+Early iteration of part of the API that provides internal data to the dashboard.
 
-_Note this is a Work In Progress (WIP)_
+_Note: this is a Work In Progress (WIP)_
 
 ```
 GET https://api.spaceworm.army/v1/dashboard
