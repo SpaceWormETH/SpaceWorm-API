@@ -162,11 +162,69 @@ GET https://api.spaceworm.army/v1/dashboard
 
 ```json
 {
-  "pair":{ "token1":{ "derivedETH":"0.000000000000000000"}, "reserve0":"00.000000000000000000", "reserve1":"0000000.000000000000000000", "reserveUSD":"00000.000000000000000000", "trackedReserveETH":"000.000000000000000000", "token0Price":"0.0000000000000000000000", "token1Price":"00000.000000000000000000", "untrackedVolumeUSD":"00000000.000000000000000000", "volumeToken0":"0000.000000000000000000", "volumeToken1":"00000000.000000000000000000", "txCount":"00000" },
-    "pairDayDatas":[{ "date":000000000000, "dailyVolumeToken0":"000.000000000000000000", "dailyVolumeToken1":"00000000.000000000000000000", "dailyTxns":"0000", }],
-      "_meta":{ "block":{ "hash":"000000000000000000", "timestamp":"000000000000000000" }},
-  "volumeETH":"17.000000000000000000", "volumeUSD":"28572.000000000000000000", "totalBurned":"0000000.000000000000000000", "totalBurnedPercent":"00", "circulatingSupply":"000000.00000", "USDperWORM":"0.00000", "WORMperUSD":"00.0000000", "ETHperWORM":"0.00000000000000000000", "WORMperETH":"00000.000000000000000000", "USDperETH":"00000.000000000000000000" }
- }
+  "pair": {
+    "token0": {
+      "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "derivedETH": "1"
+    },
+    "token1": {
+      "id": "0xf7ecb2e5ddad17506e62f51a442f725a26053fb2",
+      "symbol": "$WORM",
+      "name": "SpaceWorm",
+      "derivedETH": "0.00000000000"
+    },
+    "reserve0": "000.00000000000",
+    "reserve1": "000000.00000000000",
+    "reserveUSD": "000000.00000000000",
+    "trackedReserveETH": "0000.00000000000",
+    "token0Price": "0.00000000000",
+    "token1Price": "00000.00000000000",
+    "untrackedVolumeUSD": "00000000000.00000000000",
+    "volumeToken0": "00000000000.00000000000",
+    "volumeToken1": "00000000000.00000000000",
+    "txCount": "0000000"
+  },
+  "tokenDayDatas": [
+    {
+      "dailyTxns": "000",
+      "dailyVolumeETH": "0000.00000000000",
+      "dailyVolumeUSD": "00000.00000000000",
+      "dailyVolumeToken": "00000.00000000000",
+      "priceUSD": "0.00000000000",
+      "totalLiquidityETH": "0000.00000000000",
+      "totalLiquidityUSD": "0000.00000000000",
+      "totalLiquidityToken": "00000000000.00000000000"
+    }
+  ],
+  "pairDayDatas": [
+    {
+      "id": "0x2c5eae2ac336e27a7c8737cf5fc3263c4f09a2f0-xxxxx",
+      "date": 0000000000,
+      "dailyVolumeToken0": "0000.00000000000",
+      "dailyVolumeToken1": "00000.00000000000",
+      "reserveUSD": "00000.00000000000",
+      "reserve0": "0000.00000000000",
+      "reserve1": "00000.00000000000",
+      "dailyVolumeUSD": "0",
+      "dailyTxns": "0000",
+      "pairAddress": "0x2c5eae2ac336e27a7c8737cf5fc3263c4f09a2f0"
+    }
+  ],
+  "_meta": { "block": { "hash": "0x0000000", "timestamp": "0x0000000" } },
+  "volumeETH": "0000.00000000000",
+  "volumeUSD": "00000000000.00000000000",
+  "totalBurned": "00000.0000000000000000000000",
+  "totalBurnedPercent": "0000.00000000000",
+  "circulatingSupply": "0000000.00000000000",
+  "USDperWORM":"0.00000000000000000",
+  "WORMperUSD":"0.00000000000000",
+  "ETHperWORM":"000.0000000000000000",
+  "WORMperETH":"000.00000000000",
+  "USDperETH":"0000.000000000000000"
+  }
+}
 ```
 
 ---
