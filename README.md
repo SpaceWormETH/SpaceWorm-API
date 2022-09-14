@@ -101,6 +101,8 @@ GET https://api.spaceworm.army/v1/price?n=USDperWORM|WORMperUSD|ETHperWORM|WORMp
 
 _Currently pulls from hourly blocks, to be dynamic to each block / timestamp in future_
 
+_Get both options_
+
 ```
 GET https://api.spaceworm.army/v1/24hVolume
 ```
@@ -109,7 +111,7 @@ GET https://api.spaceworm.army/v1/24hVolume
 { "volumeETH": "0000.000000000000000000", "volumeUSD": "000000.0000000000" }
 ```
 
--
+_Get only the requested currency._
 
 ```
 GET https://api.spaceworm.army/v1/24hVolume?currency=eth|usd
