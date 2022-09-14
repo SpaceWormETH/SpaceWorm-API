@@ -11,10 +11,10 @@ A Node.js based API for $WORM / SpaceWorm.
 - [x] Circulating supply (total supply - total burned tokens)
 - [x] Total burned
 - [x] Total burned percent
-- [x] Price (USD or ETH)
-- [x] Volume (USD or ETH) - currently to hour/block
+- [x] Price (_USDperWORM_, _WORMperUSD_, _ETHperWORM_, _WORMperETH_, _USDperETH_)
+- [x] Volume (_USD_ or _ETH_) - currently to hour/block
   - [ ] Live-To-Tx Volume
-- [ ] Market Cap (USD or ETH)
+- [ ] Market Cap (_USD_ or _ETH_)
 - [ ] Dashboard Data Output (_~started/WIP_)
 
 ## Usage
