@@ -150,6 +150,16 @@ GET https://api.spaceworm.army/v1/total-supply
 { "totalSupply": "1100000" }
 ```
 
+### Total Holders
+
+```
+GET https://api.spaceworm.army/v1/total-holders
+```
+
+```json
+{ "totalHolders": "0000" }
+```
+
 ### Dashboard (WIP)
 
 Early iteration of part of the API that provides internal data to the dashboard.
@@ -192,6 +202,7 @@ GET https://api.spaceworm.army/v1/dashboard
   "totalBurned": "00000.0000000000000000000000",
   "totalBurnedPercent": "0000.00000000000",
   "circulatingSupply": "0000000.00000000000",
+  "totalHolders": "0000",
   "USDperWORM": "0.00000000000000000",
   "WORMperUSD": "0.00000000000000",
   "ETHperWORM": "000.0000000000000000",
